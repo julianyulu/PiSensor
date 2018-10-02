@@ -1,0 +1,9 @@
+in /etc/time change to :
+US/Central
+
+sudo rm /etc/localtime
+sudo ln -s /usr/share/zoneinfo/US/Central /etc/localtime
+
+maybe sudo apt-get install ntpdate
+sudo nepdate pool.ntp.org 
+

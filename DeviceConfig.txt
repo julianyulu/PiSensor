@@ -1,0 +1,26 @@
+# Device name 
+DeviceName=dev1
+
+# Data logging time interval seconds
+LogEverySec=60
+
+# Log data file save path
+DataSavePath=/home/pi/
+
+# SSH address (down to folder)
+SSHHost=yulu@internal.raizenlab.ph.utexas.edu
+SSHSyncPath=~/SyncRaspberryPi/dev1
+
+# SSH data file sync time
+# *: every one 
+# number: sync at exactly the time 0-23
+# eg.  * * * * *: syncs file every minute 
+#      1 * * * *: syncs file every hour
+#      1 0 * * *: syncs file every day at 00:01
+SSH_Sync_Minute=59
+SSH_Sync_Hour=*
+SSH_Sync_Day=*
+SSH_Sync_Month=*
+SSH_Sync_DOW=*
+
+
