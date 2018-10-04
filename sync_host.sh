@@ -19,6 +19,8 @@ else
 	$thisFilePath/setup_wpa.sh
 fi
 
+$thisFilePath/get_IPv4.sh
+
 if [ $tzone='-0500' ]
 then
 	if [ -e $dataFile ]
